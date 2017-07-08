@@ -32,6 +32,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/carousel1.css">
+    <link rel="stylesheet" type="text/css" href="css/services.css">
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -77,77 +79,54 @@
 
     <!-- Carousel
     ================================================== -->
-  <div class="container" >
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" >
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox" >
-        <div class="item active">
-          <img class="first-slide" src="images/auto-lubs.png" alt="Castrol" style="opacity: 0.4">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Hydrolic oils</h1>
-              <p>We sell pure and powerful automobile lubricants<br>
-              No mixture, energetic
-              </p>
-              <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
-            </div>
-          </div>
-        </div>
+  <div class="container"  style="margin-bottom: 50px;">
+       <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <!-- Overlay -->
+  <div class="overlay"></div>
 
-        <div class="item">
-          <img class="second-slide" src="images/metal-working-oils.jpg" alt="Mapro lubricants" style="opacity: 0.5">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Metal Working Oils</h1>
-              <p>We sell oils for all types of vehicles<br>
-              We have a big set of customers
-              </p>
-              
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <img class="third-slide" src="images/indus-lubs.jpg" alt="Lubricants"  style="opacity: 0.5">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Water soluble cutting oils</h1>
-              <p>We don't apply extra charge in our products<br>
-              Buy and enjoy it
-              </p>
-             <!--  <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p> -->
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="images/rust-preventives.jpg" alt="Mapro lubricants" style="opacity: 0.5">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Rust preventives</h1>
-              <p>We sell rust preventives for vehicles<br>
-              We have a big set of customers
-              </p>
-              
-            </div>
-          </div>
-        </div>
-        
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+    <li data-target="#bs-carousel" data-slide-to="2"></li>
+  </ol>
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+      <div class="slide-1"></div>
+      <div class="hero">
+        <hgroup>
+            <h1 style="color: silver">Hydrolic <span style="color: #28ef25"> oils </span></h1>
+             <h3>We sell pure and powerful automobile lubricants No mixture, energetic </h3>
+        </hgroup>
+<!--         <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
       </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><!-- /.carousel -->
+    </div>
+    <div class="item slides">
+      <div class="slide-2"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>Metal Working <span style="color: #25c3ef"> oils </span></h1>
+             <h3>We sell oils for all types of vehicles We have a big set of customers</h3>
+        </hgroup>       
+<!--         <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-3"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>Water soluble <span style="color: #ef25ab"> Cutting oils </span> </h1>
+             <h3>We don't apply extra charge in our products Buy and enjoy it</h3>
+        </hgroup>
+        <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
+      </div>
+    </div>
+  </div> 
+</div>
   </div>
+
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
@@ -170,13 +149,13 @@
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3">
-          <img class="img-circle" src="images/download.gif" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="images/icon.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Water Soluble Cutting Oils</h2>
           <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3">
-          <img class="img-circle" src="images/download.gif" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="images/icon2.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Rust Preventives</h2>
           <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -189,12 +168,514 @@
       <hr class="featurette-divider">
 
       <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="col-md-6">
+          <h2 class="featurette-heading">Hydraulic <span class="text-muted">Oils</span></h2>
+          <p class="lead"><h3>MAPRO&nbsp; HLP 32,46,68,100</h3>
+          <p>These are high performance heavy-duty oils, primarily intended for applications where oil is used for extended period in circulation &amp; hydraulic systems in wide range of industrial equipment and subjected to wide variations in ambient and operating temperatures. They possess good demulsibility that permits water and other contaminants to separate readily from the oil in the system reservoir. They are incompressible and remain in a fluid enough state to allow effective power transmission besides having outstanding antiwear, antirust, good air release, anti-foam, and oxidation resistance properties.</p>
+          <p><strong>Recommended</strong><strong>&nbsp;</strong>for use in hydraulic systems employing gear, vane, radial and axial piston pumps where anti-wear hydraulic fluids are required and clearances are relatively large. Due to their low pour point, they are recommended for sophisticated high performance electro-hydraulic or numerically controlled systems. They are also recommended for use in hydraulic couplings, injection moulding machineries, certain screw compressors and vacuum pumps handling air and inert gases provided the discharge temperatures do not exceed 150&deg;C. They are suitable as multipurpose lubricants in systems and perform well at the elevated temperatures but not suitable for shock loading and extreme pressure.</p>
+          <h3>PACKING: 26 LTR, 210 LTR</h3>
+          <table border="1" width="100%" cellspacing="0" cellpadding="0">
+          <tbody>
+          <tr>
+          <td colspan="5">
+          <p align="center"><strong>MAPRO&nbsp; HYDRO HLP</strong></p>
+          </td>
+          </tr>
+          <tr>
+          <td valign="top">
+          <p>Properties</p>
+          </td>
+          <td valign="top">
+          <p>32</p>
+          </td>
+          <td valign="top">
+          <p>&nbsp; 46</p>
+          </td>
+          <td valign="top">
+          <p>&nbsp;&nbsp; 68</p>
+          </td>
+          <td valign="top">
+          <p>&nbsp; 100</p>
+          </td>
+          </tr>
+          <tr>
+          <td valign="top">
+          <p>Color Appearance</p>
+          </td>
+          <td colspan="4">
+          <p align="center">Bright</p>
+          </td>
+          </tr>
+          <tr>
+          <td valign="top">
+          <p>&nbsp;</p>
+          <p>Kinematic Viscosity<br /> cSt @ 40&deg; C</p>
+          </td>
+          <td>
+          <p align="center">&nbsp;</p>
+          <p align="center">29-32</p>
+          </td>
+          <td>
+          <p align="center">&nbsp;</p>
+          <p align="center">43-46</p>
+          </td>
+          <td>
+          <p align="center">&nbsp;</p>
+          <p align="center">64-68</p>
+          </td>
+          <td>
+          <p align="center">&nbsp;</p>
+          <p align="center">96-100</p>
+          </td>
+          </tr>
+          <tr>
+          <td valign="top">
+          <p>&nbsp;Viscosity Index min.</p>
+          </td>
+          <td>
+          <p align="center">100</p>
+          </td>
+          <td>
+          <p align="center">95</p>
+          </td>
+          <td>
+          <p align="center">95</p>
+          </td>
+          <td>
+          <p align="center">95</p>
+          </td>
+          </tr>
+          <tr>
+          <td valign="top">
+          <p>Flash Point (COC)&deg;C</p>
+          </td>
+          <td>
+          <p align="center">200</p>
+          </td>
+          <td>
+          <p align="center">210</p>
+          </td>
+          <td>
+          <p align="center">210</p>
+          </td>
+          <td>
+          <p align="center">215</p>
+          </td>
+          </tr>
+          <tr>
+          <td valign="top">
+          <p>Pour Point &deg;C</p>
+          </td>
+          <td>
+          <p align="center">-18</p>
+          </td>
+          <td>
+          <p align="center">-18</p>
+          </td>
+          <td>
+          <p align="center">-15</p>
+          </td>
+          <td>
+          <p align="center">-12</p>
+          </td>
+          </tr>
+          <tr>
+          <td valign="top">
+          <p>Rust Properties<br /> ASTM D665, 24 Hrs</p>
+          </td>
+          <td colspan="4">
+          <p align="center">&nbsp;</p>
+          <p align="center">--------------PASS----------------</p>
+          </td>
+          </tr>
+          </tbody>
+          </table>
+
+          <h3><strong><span style="text-decoration: underline;">MAPRO R &amp; O 32,46,68,100,150,220,320,460</span></strong></h3>
+          <p>These are high quality, solvent refined, high viscosity index circulation &amp; hydraulic oils, designed to satisfy the performance requirements for a wide range of hydraulic components in systems, subjected to light and medium load operating conditions. They have good film strength property, inherent oxidation and thermal stability, besides excellent ability to separate from water. They offer high resistance to the formation of lacquers and other oxidation products and resistance to rusting and corrosion in high humidity operations or where low levels of moisture are unavoidable. They provide economical lubrication and protect the components from excessive wear.</p>
+          <p><strong>Recommended</strong><strong>&nbsp;</strong>for hydraulic systems, plain and anti-friction bearings of turbo feed pumps, turbo blowers, air compressors requiring turbine quality oil, machine tools, circulation system of industrial gear boxes etc. which do not require EP type of lubricants and where oil is changed after short duration.</p>
+          <h3>PACKING 26 LTR, 210 LTR</h3>
+          <table border="1" width="100%" cellspacing="0" cellpadding="0">
+          <tbody>
+          <tr>
+          <td colspan="9" width="567">
+          <p align="center"><strong>MAPRO R &amp; O</strong></p>
+          </td>
+          </tr>
+          <tr>
+          <td width="126">
+          <p align="center">Properties</p>
+          </td>
+          <td width="55">
+          <p align="center">32</p>
+          </td>
+          <td width="48">
+          <p align="center">46</p>
+          </td>
+          <td width="47">
+          <p align="center">68</p>
+          </td>
+          <td width="53">
+          <p align="center">100</p>
+          </td>
+          <td width="59">
+          <p align="center">150</p>
+          </td>
+          <td width="59">
+          <p align="center">220</p>
+          </td>
+          <td width="59">
+          <p align="center">320</p>
+          </td>
+          <td width="59">
+          <p align="center">460</p>
+          </td>
+          </tr>
+          <tr>
+          <td valign="top" width="126">
+          <p>Color Appearance</p>
+          </td>
+          <td colspan="8" width="441">
+          <p align="center">Bright</p>
+          </td>
+          </tr>
+          <tr>
+          <td width="126">
+          <p align="center">&nbsp;</p>
+          <p align="center">Kinematic Viscosity<br /> cSt @ 40&deg; C</p>
+          </td>
+          <td width="55">
+          <p align="center">&nbsp;</p>
+          <p align="center">29-35</p>
+          </td>
+          <td width="48">
+          <p align="center">&nbsp;</p>
+          <p align="center">42-50</p>
+          </td>
+          <td width="47">
+          <p align="center">&nbsp;</p>
+          <p align="center">64-72</p>
+          </td>
+          <td width="53">
+          <p align="center">&nbsp;</p>
+          <p align="center">95-100</p>
+          </td>
+          <td width="59">
+          <p align="center">&nbsp;</p>
+          <p align="center">145-155</p>
+          </td>
+          <td width="59">
+          <p align="center">&nbsp;</p>
+          <p align="center">210-230</p>
+          </td>
+          <td width="59">
+          <p align="center">&nbsp;</p>
+          <p align="center">305-335</p>
+          </td>
+          <td width="59">
+          <p align="center">&nbsp;</p>
+          <p align="center">440-480</p>
+          </td>
+          </tr>
+          <tr>
+          <td width="126">
+          <p align="center">Viscosity Index min.</p>
+          </td>
+          <td width="55">
+          <p align="center">95</p>
+          </td>
+          <td width="48">
+          <p align="center">95</p>
+          </td>
+          <td width="47">
+          <p align="center">95</p>
+          </td>
+          <td width="53">
+          <p align="center">95</p>
+          </td>
+          <td width="59">
+          <p align="center">90</p>
+          </td>
+          <td width="59">
+          <p align="center">90</p>
+          </td>
+          <td width="59">
+          <p align="center">90</p>
+          </td>
+          <td width="59">
+          <p align="center">90</p>
+          </td>
+          </tr>
+          <tr>
+          <td width="126">
+          <p align="center">Flash Point (COC)&deg;C</p>
+          </td>
+          <td width="55">
+          <p align="center">190</p>
+          </td>
+          <td width="48">
+          <p align="center">200</p>
+          </td>
+          <td width="47">
+          <p align="center">210</p>
+          </td>
+          <td width="53">
+          <p align="center">210</p>
+          </td>
+          <td width="59">
+          <p align="center">220</p>
+          </td>
+          <td width="59">
+          <p align="center">230</p>
+          </td>
+          <td width="59">
+          <p align="center">230</p>
+          </td>
+          <td width="59">
+          <p align="center">230</p>
+          </td>
+          </tr>
+          <tr>
+          <td width="126">
+          <p align="center">Pour Point &deg;C</p>
+          </td>
+          <td width="55">
+          <p align="center">-3</p>
+          </td>
+          <td width="48">
+          <p align="center">-3</p>
+          </td>
+          <td width="47">
+          <p align="center">-3</p>
+          </td>
+          <td width="53">
+          <p align="center">-3</p>
+          </td>
+          <td width="59">
+          <p align="center">-3</p>
+          </td>
+          <td width="59">
+          <p align="center">-3</p>
+          </td>
+          <td width="59">
+          <p align="center">0</p>
+          </td>
+          <td width="59">
+          <p align="center">0</p>
+          </td>
+          </tr>
+          <tr>
+          <td width="126">
+          <p align="center">Rust Properties<br /> ASTM D665, 24 Hrs</p>
+          </td>
+          <td colspan="8" width="441">
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------PASS----------------</p>
+          </td>
+          </tr>
+          </tbody>
+          </table>
+
+                  </div>
+                  <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" src="images/hydro.jpg" alt="Generic placeholder image">
+                  </div>
+                  <div class="col-md-6">
+                  <p class="lead">
+                    <h3><span style="text-decoration: underline;">MAPRO AW 32,46,68,100,150,220,320,460</span></h3>
+          <p>These are premium high performance oils, designed to satisfy the performance requirements for a wide range of hydraulic components in systems subjected to high-pressure, high-temperature operating conditions. They have good film strength property, inherent oxidation and thermal stability, besides excellent ability to separate from water and have very good air release properties.&nbsp; They offer high resistance to the formation of lacquers and other oxidation products and resistance to rusting and corrosion in high humidity operations or where low levels of moisture are unavoidable.</p>
+          <p>These oils are formulated with high quality base stocks and carefully selected additive system that result in finished products to provide many desirable features, to work with systems operating under moderate to severe conditions where a high level of anti-wear protection is required.</p>
+          <p><strong>Recommended</strong><strong>&nbsp;</strong>for hydraulic system, systems employing gear, bearings, vane, radial and axial piston pumps, chain drivers, compressors, vacuum pumps, mining machinery machine tools, circulation oiling system etc. where anti-wear type hydraulic oils are recommended.</p>
+          <h3>PACKING 26 LTR, 210 LTR</h3>
+          <table border="1" width="100%" cellspacing="0" cellpadding="0">
+          <tbody>
+          <tr>
+          <td colspan="9" width="567">
+          <p align="center">MAPRO HYDRO AW</p>
+          </td>
+          </tr>
+          <tr>
+          <td width="126">
+          <p align="center">Properties</p>
+          </td>
+          <td width="55">
+          <p align="center">32</p>
+          </td>
+          <td width="48">
+          <p align="center">46</p>
+          </td>
+          <td width="47">
+          <p align="center">68</p>
+          </td>
+          <td width="53">
+          <p align="center">100</p>
+          </td>
+          <td width="59">
+          <p align="center">150</p>
+          </td>
+          <td width="59">
+          <p align="center">220</p>
+          </td>
+          <td width="59">
+          <p align="center">320</p>
+          </td>
+          <td width="59">
+          <p align="center">460</p>
+          </td>
+          </tr>
+          <tr>
+          <td valign="top" width="126">
+          <p>Color Appearance</p>
+          </td>
+          <td colspan="8" width="441">
+          <p align="center">Bright</p>
+          </td>
+          </tr>
+          <tr>
+          <td width="126">
+          <p align="center">&nbsp;</p>
+          <p align="center">Kinematic Viscosity<br /> cSt @ 40&deg; C</p>
+          </td>
+          <td width="55">
+          <p align="center">&nbsp;</p>
+          <p align="center">29-35</p>
+          </td>
+          <td width="48">
+          <p align="center">&nbsp;</p>
+          <p align="center">42-50</p>
+          </td>
+          <td width="47">
+          <p align="center">&nbsp;</p>
+          <p align="center">64-72</p>
+          </td>
+          <td width="53">
+          <p align="center">&nbsp;</p>
+          <p align="center">95-100</p>
+          </td>
+          <td width="59">
+          <p align="center">&nbsp;</p>
+          <p align="center">145-155</p>
+          </td>
+          <td width="59">
+          <p align="center">&nbsp;</p>
+          <p align="center">210-230</p>
+          </td>
+          <td width="59">
+          <p align="center">&nbsp;</p>
+          <p align="center">305-335</p>
+          </td>
+          <td width="59">
+          <p align="center">&nbsp;</p>
+          <p align="center">440-480</p>
+          </td>
+          </tr>
+          <tr>
+          <td width="126">
+          <p align="center">Viscosity Index min.</p>
+          </td>
+          <td width="55">
+          <p align="center">95</p>
+          </td>
+          <td width="48">
+          <p align="center">95</p>
+          </td>
+          <td width="47">
+          <p align="center">95</p>
+          </td>
+          <td width="53">
+          <p align="center">95</p>
+          </td>
+          <td width="59">
+          <p align="center">95</p>
+          </td>
+          <td width="59">
+          <p align="center">95</p>
+          </td>
+          <td width="59">
+          <p align="center">95</p>
+          </td>
+          <td width="59">
+          <p align="center">95</p>
+          </td>
+          </tr>
+          <tr>
+          <td width="126">
+          <p align="center">Flash Point (COC)&deg;C</p>
+          </td>
+          <td width="55">
+          <p align="center">190</p>
+          </td>
+          <td width="48">
+          <p align="center">200</p>
+          </td>
+          <td width="47">
+          <p align="center">210</p>
+          </td>
+          <td width="53">
+          <p align="center">210</p>
+          </td>
+          <td width="59">
+          <p align="center">220</p>
+          </td>
+          <td width="59">
+          <p align="center">230</p>
+          </td>
+          <td width="59">
+          <p align="center">230</p>
+          </td>
+          <td width="59">
+          <p align="center">230</p>
+          </td>
+          </tr>
+          <tr>
+          <td width="126">
+          <p align="center">Pour Point &deg;C</p>
+          </td>
+          <td width="55">
+          <p align="center">-18</p>
+          </td>
+          <td width="48">
+          <p align="center">-18</p>
+          </td>
+          <td width="47">
+          <p align="center">-15</p>
+          </td>
+          <td width="53">
+          <p align="center">-12</p>
+          </td>
+          <td width="59">
+          <p align="center">-12</p>
+          </td>
+          <td width="59">
+          <p align="center">0</p>
+          </td>
+          <td width="59">
+          <p align="center">0</p>
+          </td>
+          <td width="59">
+          <p align="center">0</p>
+          </td>
+          </tr>
+          <tr>
+          <td width="126">
+          <p align="center">Rust Properties<br /> ASTM D665, 24 Hrs</p>
+          </td>
+          <td colspan="8" width="441">
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------PASS----------------</p>
+          </td>
+          </tr>
+          </tbody>
+          </table>
+                 
+          <h3>Safety &amp; precautions:</h3>
+          <hr />
+          <ul>
+          <li>Follow safety rules and use Personnel Protective Equipments at work.</li>
+          <li>Follow work instructions properly before commencing any work.</li>
+          <li>Promoting safety and health awareness among employees</li>
+          <li>Periodically review safety and health performance and take corrective measures for continuous improvement</li>
+          <li>Safety training to all employees with the objective of improving safety standards.</li>
+          </ul>
+          </p>
         </div>
       </div>
 
@@ -202,11 +683,19 @@
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">metal working <span class="text-muted">Oils</span></h2>
+          <p class="lead"><h3>Safety &amp; precautions:</h3>
+            <hr />
+            <ul>
+            <li>Follow safety rules and use Personnel Protective Equipments at work.</li>
+            <li>Follow work instructions properly before commencing any work.</li>
+            <li>Promoting safety and health awareness among employees</li>
+            <li>Periodically review safety and health performance and take corrective measures for continuous improvement</li>
+            <li>Safety training to all employees with the objective of improving safety standards.</li>
+            </ul></p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="images/metal.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -214,11 +703,206 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Water soluble cutting <span class="text-muted">Oils</span></h2>
+          <p class="lead">
+            <h3>MAPRO SUPER CUT S-AL</h3>
+            <p>These are Water Soluble Cutting Oil, makes a milky emulsion when mixed proportionately with water. The characteristics of this emulsion are anti-rust, anti corrosive and anti foaming. The solution prevents bacterial growth due to biocides. It gives a good tool life and surface finishing. It minimizes wear and tear and blunting of tool due to over heat, and gives rapid cooling and flushing action.</p>
+            <p>PACKING 26 LTR, 210 LTR</p>
+            <table border="1" width="100%" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+            <td colspan="2" width="244">
+            <p align="center">MAPRO SUPER CUT S-AL</p>
+            </td>
+            </tr>
+            <tr>
+            <td width="124">
+            <p align="center">Properties</p>
+            </td>
+            <td width="120">
+            <p align="center">S-AL</p>
+            </td>
+            </tr>
+            <tr>
+            <td valign="top" width="124">
+            <p>Color Appearance</p>
+            </td>
+            <td width="120">
+            <p align="center">Mild Beige</p>
+            </td>
+            </tr>
+            <tr>
+            <td width="124">
+            <p align="center">&nbsp;</p>
+            <p align="center">Mineral Oil Content</p>
+            </td>
+            <td width="120">
+            <p align="center">45-60</p>
+            </td>
+            </tr>
+            <tr>
+            <td width="124">
+            <p align="center">Water Content</p>
+            </td>
+            <td width="120">
+            <p align="center">&lt; 5%</p>
+            </td>
+            </tr>
+            <tr>
+            <td width="124">
+            <p align="center">Flash Point (COC)&deg;C</p>
+            </td>
+            <td width="120">
+            <p align="center">&gt;150</p>
+            </td>
+            </tr>
+            <tr>
+            <td width="124">
+            <p align="center">Density @ 29.5&deg;C</p>
+            </td>
+            <td width="120">
+            <p align="center">0.92gm/cc</p>
+            </td>
+            </tr>
+            <tr>
+            <td width="124">
+            <p align="center">Ph value of 5% Emulsion</p>
+            </td>
+            <td width="120">
+            <p align="center">9.0-9.5</p>
+            </td>
+            </tr>
+            <tr>
+            <td width="124">
+            <p align="center">Water Hardness Compatability</p>
+            </td>
+            <td width="120">
+            <p align="center">Upto 400 PPM</p>
+            </td>
+            </tr>
+            </tbody>
+            </table>  
+
+            <h3>Safety &amp; precautions:</h3>
+            <hr />
+            <ul>
+            <li>Follow safety rules and use Personnel Protective Equipments at work.</li>
+            <li>Follow work instructions properly before commencing any work.</li>
+            <li>Promoting safety and health awareness among employees</li>
+            <li>Periodically review safety and health performance and take corrective measures for continuous improvement</li>
+            <li>Safety training to all employees with the objective of improving safety standards.</li>
+            </ul>
+          </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="images/cutting.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Rust Preventives <span class="text-muted">Oils</span></h2>
+          <p class="lead">
+              <h3><strong>MAPRO RUSTOP 900</strong></h3>
+              <p>These Rust Preventive Oils are recommended for action against rust forming on the finished work piece during storage, and it protects metal surfaces against corrosion. These oils having rust preventive materials in a solvent for easy applications. At the time of application the solvent evaporates leaving a deposit on the surface.</p>
+              <h3>PACKING 26 LTR, 210 LTR</h3>
+              <table border="1" width="100%" cellspacing="0" cellpadding="0">
+              <tbody>
+              <tr>
+              <td colspan="2" width="241">
+              <p align="center">MAPRO RUSTOP 900</p>
+              </td>
+              </tr>
+              <tr>
+              <td width="123">
+              <p align="center">Properties</p>
+              </td>
+              <td width="118">
+              <p align="center">Rustop 900</p>
+              </td>
+              </tr>
+              <tr>
+              <td valign="top" width="123">
+              <p>Color Appearance</p>
+              </td>
+              <td width="118">
+              <p align="center">Brown Fluid</p>
+              </td>
+              </tr>
+              <tr>
+              <td width="123">
+              <p align="center">Sp gravity</p>
+              </td>
+              <td width="118">
+              <p align="center">0.085 @ 29.5&deg;C</p>
+              </td>
+              </tr>
+              <tr>
+              <td width="123">
+              <p align="center">Viscosity</p>
+              </td>
+              <td width="118">
+              <p align="center">11-15 seconds</p>
+              </td>
+              </tr>
+              <tr>
+              <td width="123">
+              <p align="center">Film Thickness</p>
+              </td>
+              <td width="118">
+              <p align="center">4-5 microns</p>
+              </td>
+              </tr>
+              <tr>
+              <td width="123">
+              <p align="center">Flash Point (COC)&deg;C</p>
+              </td>
+              <td width="118">
+              <p align="center">46</p>
+              </td>
+              </tr>
+              <tr>
+              <td width="123">
+              <p align="center">Water Displacement Test ( IS_1154)</p>
+              </td>
+              <td width="118">
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Passes</p>
+              </td>
+              </tr>
+              <tr>
+              <td width="123">
+              <p align="center">Protection</p>
+              </td>
+              <td width="118">
+              <p align="center">6-12 month(indoor)<br /> 3 month (outdoor)</p>
+              </td>
+              </tr>
+              <tr>
+              <td width="123">
+              <p align="center">Coverage</p>
+              </td>
+              <td width="118">
+              <p align="center">30-40sqmt/ltr (typical)</p>
+              </td>
+              </tr>
+              </tbody>
+              </table>  
+                      
+              <h3>Safety &amp; precautions:</h3>
+              <hr />
+              <ul>
+              <li>Follow safety rules and use Personnel Protective Equipments at work.</li>
+              <li>Follow work instructions properly before commencing any work.</li>
+              <li>Promoting safety and health awareness among employees</li>
+              <li>Periodically review safety and health performance and take corrective measures for continuous improvement</li>
+              <li>Safety training to all employees with the objective of improving safety standards.</li>
+              </ul>
+          </p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="images/rust.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -231,6 +915,7 @@
       <footer>
        <!--  <p class="pull-right"><a href="#">Back to top</a></p> -->
         <p style="text-align: center">Copyright &copy; 2016 <br><strong>Mapro lubricants</strong>, Bangalore (India)</p>
+        <!--    <h2 class="featurette-heading" style="text-align: center">Crafted By <span class="text-muted">Bhagirath Ram Jakhar</span></h2> -->
       </footer>
 
     </div><!-- /.container -->

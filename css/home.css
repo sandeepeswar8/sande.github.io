@@ -1,0 +1,9 @@
+.fade-carousel .slides .slide-1 {
+  background-image: url(../images/home1.gif); opacity: 0.5; 
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url(../images/home2.jpg);
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url(../images/home3.jpg);
+}
