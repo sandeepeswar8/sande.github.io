@@ -253,19 +253,35 @@
 
       <script>
       function myMap() {
-      var mapProp= {
+        var myCenter = new google.maps.LatLng(12.982131,77.4457391);
+        var mapCanvas = document.getElementById("googleMap");
+        var mapOptions = {center: myCenter, zoom: 5};
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({position:myCenter});
+        marker.setMap(map);
 
-          center:new google.maps.LatLng(12.993971,77.553845),
-          // center:new google.maps.LatLng(37.9691101,122.5864868),
-          // center:new google.maps.LatLng(12.9538477,77.3507394),
-          zoom:5,
-      };
-
-      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-      var marker = new google.maps.Marker({position:mapProp["center"]});
-      marker.setMap(map);
+        var infowindow = new google.maps.InfoWindow({
+          content: "Mapro lubricants"
+        });
+        infowindow.open(map,marker);
       }
-      </script>
+            </script>
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxuu4z6bKGrYSF_Lpw604s-RYwgVRQP0E&callback=myMap"></script>
   </body>
 </html>
+
+<!-- function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var myCenter = new google.maps.LatLng(51.508742,-0.120850); 
+  var mapOptions = {center: myCenter, zoom: 5};
+  var map = new google.maps.Map(mapCanvas,mapOptions);
+  var marker = new google.maps.Marker({
+    position: myCenter,
+    icon: "pinkball.png"
+  });
+  marker.setMap(map);
+} -->
+
+
+  infowindow.open(map,marker);
+}
