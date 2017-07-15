@@ -1,9 +1,9 @@
 .fade-carousel .slides .slide-1 {
-  background-image: url(../images/cont1.jpg); opacity: 0.8; 
+  background-image: url(../images/cont1.jpg); opacity: 1; 
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url(../images/cont2.png); opacity: 0.8;
+  background-image: url(../images/cont2.png); opacity: 1;
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url(../images/cont3.png); opacity: 0.8;
+  background-image: url(../images/cont3.png); opacity: 1;
 }
