@@ -7,3 +7,10 @@
 .fade-carousel .slides .slide-3 {
   background-image: url(../images/home3.jpg);
 }
+
+@media only screen and (max-device-width: 480px) {
+		#myCarousel {
+			width: 400px;
+			height: 100px;
+		}
+}
